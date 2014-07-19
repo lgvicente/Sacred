@@ -1,0 +1,117 @@
+/* 
+    Document   : estilo
+    Created on : 13/04/2011, 18:43:55
+    Author     : luciano.vicente
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body {
+	margin:0px;
+	background-color: #eeeaea;
+	font-family:'Times New Roman',Times,serif;
+	font-size:12px;
+	color:#000;
+}
+
+#todo {
+	position: relative;
+	width: 760px;
+	border: 0px solid grey;
+	margin:0px auto;
+	background-color: white;
+}
+
+#topo {
+	position: relative;
+        background-color: #ffffff;
+        background-image: url(images/Blue_Header.JPG);
+	width: 900px;
+	height: 100px;
+	border: 0px solid grey;
+        vertical-align: bottom;
+        font-size: 12pt;
+        font-style: normal;
+}
+
+#meio {
+	position: relative;
+	width: 900px;
+	min-height: 400px;
+	background-color: #dce2e1;
+        font-family: 'Times New Roman',Times,serif;
+}
+
+#rodape {
+	width: 900px;
+	height: 75px;
+	border: 0px solid brown;
+}
+
+#esquerda {
+	float: left;
+	width: 150px;
+	min-height: 400px;
+	border: 0px solid grey;
+    font-family: 'Times New Roman',Times,serif;
+}
+
+#miolo {
+	float: left;
+	width: 746px;
+	min-height: 400px;
+	border: 0px solid grey;
+}
+
+#menu {
+	width: 150px;
+	height: 400px;
+}
+
+.itemMenu {
+	width: 140px;
+	height: 21px;
+	background-color: lightyellow;
+	padding: 3px 0px 0px 10px;
+	border-bottom: 0px solid black;
+}
+
+#logo {
+	float: left;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	background-color: #cccccc;
+	margin-right: 20px;
+        background-color: #ffffff;
+        background-image: url(images/Blue_Header.JPG);
+        vertical-align: bottom;
+}
+
+.secao_miolo {
+	width: 582px;
+	height: 150px;
+	text-align: center;
+	background-color: #cccccc;
+	margin: 2px 5px 4px 5px;
+}
+
+#rodape_direita {
+	float: right;
+	width: 200px;
+	text-align: right;
+	margin: 5px 10px 0px 0px
+}
+
+#rodape_direita a{color: #cc6600; text-decoration: none;}
+#rodape_direita a:hover{color: #cc6600; text-decoration: underline;}
+
+.carregando {
+
+}
+

@@ -1,0 +1,38 @@
+Select
+he.*,
+h.heroname,
+h.heromana,
+h.herohp,
+h.herolevel,
+h.heroexp,
+se.slotname,
+i.itemname,
+u.userlogin,
+c.classname as heroclass,
+h.herostr,
+h.herosta,
+h.heroagi,
+h.heroint,
+h.herospr,
+h.heromaxhp,
+h.heromaxmana,
+ha.herodps as damage,
+ha.heroarmor as armor,
+ha.heroheal as heal,
+ha.herosp as spellpower
+from
+heroequip he
+inner join hero h on
+he.heroid = h.heroid
+inner join slotequip se on
+se.slotid = he.slotid
+inner join item i on
+i.itemid = he.itemid
+inner join userhero uh on
+uh.heroid = h.heroid
+inner join user u on
+u.userid = uh.userid
+inner join class c on
+c.classid = h.classid
+inner join heroattribute ha on
+ha.heroid = h.heroid
